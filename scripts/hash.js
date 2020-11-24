@@ -1,0 +1,10 @@
+const crypto = require('crypto')
+const fs = require('fs')
+const path = require('path')
+console.log(__dirname)
+const inFile = path.resolve(__dirname, '../index.js')
+const outFile = path.resolve(__dirname, '../hash.txt')
+const source = fs.readFileSync(inFile, 'utf8').toString();
+const hash = crypto.createHash('sha256').update(source).digest('base64')
+fs.writeFileSync(outFile, `'sha256-${hash}'\n`)
+console.log(`Script hash saved to ${outFile}`)

@@ -1,0 +1,27 @@
+{
+  "name": "web-monetization-polyfill",
+  "version": "1.0.0",
+  "description": "Polyfills document.monetization for the Web Monetization JavaScript API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "node scripts/hash.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immers-space/web-monetization-polyfill.git"
+  },
+  "keywords": [
+    "Web monetization",
+    "monetization",
+    "polyfill",
+    "CSP",
+    "Content security policy"
+  ],
+  "author": "Will Murphy",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/immers-space/web-monetization-polyfill/issues"
+  },
+  "homepage": "https://github.com/immers-space/web-monetization-polyfill#readme"
+}
