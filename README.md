@@ -1,5 +1,7 @@
 # web-monetization-polyfill
 
+![npm](https://img.shields.io/npm/v/web-monetization-polyfill)
+
 Polyfill the [Web Monetization JavaScript API](https://webmonetization.org/docs/api)
 on `document.monetization`
 
@@ -21,6 +23,12 @@ Source: `require('web-monetization-polyfill')`
 While you could, in theory, source this from a CDN in a script tag,
 you'd have to open up your CSP to allow it, so this method is not recommended.
 If you must, you'll need to add the [current hash](hash.txt) to your `script-src` directive.
+
+## Compatibility
+
+web-monetization-polyfill | Coil browser add-on
+--- | ---
+2.0.0 | 0.0.52
 
 ## Copyright
 
