@@ -1,6 +1,6 @@
 # web-monetization-polyfill
 
-![npm](https://img.shields.io/npm/v/web-monetization-polyfill)
+[![npm](https://img.shields.io/npm/v/web-monetization-polyfill)](https://www.npmjs.com/package/web-monetization-polyfill)
 
 Polyfill the [Web Monetization JavaScript API](https://webmonetization.org/docs/api)
 on `document.monetization`
